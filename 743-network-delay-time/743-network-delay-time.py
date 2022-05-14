@@ -1,3 +1,7 @@
+'''
+https://leetcode.com/problems/network-delay-time/discuss/2036405/Python-Simple-Dijkstra-Beats-~90
+'''
+
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:        
         adj_list = defaultdict(list)
