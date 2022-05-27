@@ -1,4 +1,8 @@
-def combs(a):
+
+## https://stackoverflow.com/posts/54480126/revisions
+## uses base python to output all the possible combinations of a list of integers a
+
+def combs(a:list[int])-> list[list[int]]:
     if len(a) == 0:
         return [[]]
     cs = []
