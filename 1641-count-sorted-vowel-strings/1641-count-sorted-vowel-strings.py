@@ -7,6 +7,8 @@ class Solution:
         return(len(list(itertools.combinations_with_replacement(vowels, n))))
 '''
 
+## lexicographically sorted usally makes use of the itertools package, either using it.permutations or it.combinations_with_replacement
+## this solution uses the factorial form
 import math
 m=5
 class Solution:
