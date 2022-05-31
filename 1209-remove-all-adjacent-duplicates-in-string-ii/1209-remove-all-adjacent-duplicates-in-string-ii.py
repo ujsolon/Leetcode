@@ -13,6 +13,8 @@ class Solution:
         return(s)
 '''
 
+##https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/discuss/2079402/python-solution
+
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
         stack = []
