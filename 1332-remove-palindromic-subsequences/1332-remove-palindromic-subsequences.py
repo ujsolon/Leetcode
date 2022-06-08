@@ -33,7 +33,7 @@ class Solution:
         return(count)
 '''
 
-##This one liner of a solution takes into account an observation that the max number of steps here is 2
+##This one liner of a solution takes into account an observation that the max number of steps here is 2, which for me, is not really that immediate
 class Solution:
     def removePalindromeSub(self, s: str) -> int:
         return 1 if s == s[::-1] else 2
